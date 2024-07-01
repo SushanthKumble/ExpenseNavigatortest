@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
 }
 
 android {
@@ -49,6 +50,10 @@ dependencies {
     implementation ("androidx.navigation:navigation-ui-ktx:2.5.3")
     implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
     implementation ("com.google.android.gms:play-services-location:17.1.0")
+
+    //glide
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+    kapt ("com.github.bumptech.glide:compiler:4.15.1")
 
 
 }
