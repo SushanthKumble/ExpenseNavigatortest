@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
 
 
-        val role = getCurrentUserRole() // "USER" or "ADMIN"
+        val role = getCurrentUserRole() // "USER"  "ADMIN"
 
         // Find the NavHostFragment
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.newsNavHostFragment) as NavHostFragment

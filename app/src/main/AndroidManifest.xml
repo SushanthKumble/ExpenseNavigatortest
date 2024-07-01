@@ -16,7 +16,7 @@
         android:theme="@style/Theme.AttendanceDummy"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivityAdmin"
+            android:name=".ui.MainActivityAdmin"
             android:exported="false" />
         <activity
             android:name=".ui.MainActivity"
