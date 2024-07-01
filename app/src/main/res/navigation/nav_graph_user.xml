@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.attendancedummy.ui.fragments.employee.Home"
+        android:label="home_fragment" />
+    <fragment
+        android:id="@+id/attendance_fragment"
+        android:name="com.example.attendancedummy.ui.fragments.employee.Attendance"
+        android:label="attendance_fragment" />
+    <fragment
+        android:id="@+id/task_fragment"
+        android:name="com.example.attendancedummy.ui.fragments.employee.Task"
+        android:label="task_fragment" />
+    <fragment
+        android:id="@+id/product_fragment"
+        android:name="com.example.attendancedummy.ui.fragments.employee.Product"
+        android:label="product_fragment" />
+</navigation>
