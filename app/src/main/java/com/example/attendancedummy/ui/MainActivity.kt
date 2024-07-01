@@ -40,6 +40,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun getCurrentUserRole(): String {
         // Implement your logic to get the current user's role
-        return "USER" // or "ADMIN"
+        return "ADMIN" // or "ADMIN"
     }
 }

@@ -11,7 +11,7 @@
         android:label="Admin_home" />
     <fragment
         android:id="@+id/nav_admin_attendance"
-        android:name="com.example.attendancedummy.ui.fragments.employeer.Admin_attendance"
+        android:name="com.example.attendancedummy.ui.fragments.employeer.AdminAttendanceFragment"
         android:label="fragment_admin_attendance"
         tools:layout="@layout/fragment_admin_attendance" />
     <fragment
